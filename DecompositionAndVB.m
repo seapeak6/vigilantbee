@@ -5,3 +5,4 @@ B=[1;1;0];
 [W,I]=eig(A);
 V=inv(W);
 VB=V*B;
+%%full controllability requires the matrix VB to have no zero rows.
